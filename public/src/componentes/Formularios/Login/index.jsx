@@ -17,7 +17,6 @@ const FormLogin = () => {
   const onFinish = (values) => {
     const { username, password } = values;
 
-    // Valida los usuarios y contraseñas específicas
     if (username === 'analistas' && password === 'qsn123') {
       const user = {
         username: 'analistas',
