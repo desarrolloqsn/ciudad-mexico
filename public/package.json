@@ -1,0 +1,73 @@
+{
+  "name": "ven-maduro",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/graphs": "^1.4.0",
+    "@ant-design/icons": "^5.2.6",
+    "@ant-design/maps": "^1.0.6",
+    "@ant-design/plots": "^1.2.5",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "ant-design": "^1.0.0",
+    "antd": "^5.11.5",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.5",
+    "captcha-image": "^1.2.6",
+    "chart.js": "^4.4.0",
+    "dayjs": "^1.11.7",
+    "file-saver": "^2.0.5",
+    "gatsby": "^5.10.0",
+    "html2pdf.js": "^0.10.1",
+    "jszip": "^3.10.1",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-apexcharts": "^1.4.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-countup": "^6.4.2",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-leaflet": "^4.2.1",
+    "react-redux": "^8.0.5",
+    "react-router": "^6.11.1",
+    "react-router-dom": "^6.11.1",
+    "react-scripts": "5.0.1",
+    "react-simple-chatbot": "^0.6.1",
+    "react-spring": "^9.7.1",
+    "react-transition-group": "^4.4.5",
+    "recharts": "^2.9.3",
+    "redux": "^4.2.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.2",
+    "vis-data": "^7.1.6",
+    "vis-network": "^9.1.6",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

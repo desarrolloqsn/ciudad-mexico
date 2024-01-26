@@ -1,0 +1,26 @@
+.footer{
+    display: flex;
+    justify-content: end;
+    padding:0.7rem 2rem 0.7rem 0rem;
+    background-color: rgba(202, 201, 201, 0.627);
+    color:rgb(84, 84, 84);
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    align-self: center;
+    gap:0.5rem;
+    font-size: 1rem;
+}
+
+.linea-footer{
+    color:rgb(84, 84, 84);
+    font-weight: 100;
+}
+
+.a{
+    color:rgb(84, 84, 84);
+}
+
+.a:hover{
+    color: #001529;
+}

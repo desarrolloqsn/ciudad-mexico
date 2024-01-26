@@ -1,0 +1,36 @@
+.tablamodificarusuario{
+    margin-right: 1.5rem;
+}
+
+.tablas-series-clientes{
+    margin-right: 1.5rem;
+    display: flex; 
+    gap:2rem
+}
+
+.tabla{
+    width: 50%;
+}
+
+.contenedor-modal{
+    display: flex;
+    justify-content: center;
+}
+
+.boton-subserie{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.agregar-cliente{
+    display: flex;
+
+    margin:1rem;
+ 
+}
+
+.botones-agregar{
+    display: flex;
+    justify-content: end;
+
+}

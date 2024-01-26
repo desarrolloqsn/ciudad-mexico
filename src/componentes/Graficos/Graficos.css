@@ -1,0 +1,321 @@
+.estadisticas{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+    padding-top: 4rem !important;
+
+}
+
+.titulo-modelo{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+.modelos-grafos{
+display: flex;
+flex-wrap: wrap;
+gap:1rem;
+justify-content: center;
+}
+
+.imagen-grafo{
+  width: 100%;
+}
+
+.imagen-grafo-hashtags{
+    width: 65%;
+    border-radius: 10px;
+  }
+  
+
+.imagen-grafo-modelos{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.graficoindividualgrafo{
+    width: 100%;
+}
+
+.graficosbarra{
+    display: flex;
+    width: 100%;
+    gap:1rem;
+    justify-content: space-around;
+}
+
+.serie-grafos{
+    width: 15%;
+    margin-left: 1rem;
+}
+
+.filtrografos{
+    width: 100%;
+}
+
+
+.boton-abrirnavegador{
+    margin-left:1rem
+}
+
+.contenedor-tooltip-polar{
+    padding-top: 1rem ;
+    font-size: 17px;
+}
+
+.ant-tooltip-list{
+    padding-top: 1rem;
+}
+
+.subtitulo-carta{
+    display: flex;
+   justify-content: space-between;
+   padding-bottom: 0.5rem;
+   align-items: center;
+   align-self: center;
+}
+
+.subtitulo-boton{
+    background-color: #f97000 
+}
+
+.subtitulo-boton:hover{
+    background-color: #a6a6a6 !important
+}
+
+.nubepalabras{
+    max-height: 480px !important;
+}
+
+.cartagraficosindibiduales{
+    border: 0.5px solid rgb(212, 212, 212);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+   /*  box-shadow: 10px 10px 5px 0px rgba(211,211,211,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(211,211,211,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(211,211,211,0.75);  */
+  box-shadow: 2px 4px 5px -2px rgba(182, 182, 182, 0.75);
+-webkit-box-shadow: 2px 4px 5px -2px rgba(182, 182, 182, 0.75);
+-moz-box-shadow: 2px 4px 5px -2px rgba(182, 182, 182, 0.75);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.carta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+    text-align: center !important;  
+    border: 0.5px solid rgb(212, 212, 212);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+   /*  box-shadow: 10px 10px 5px 0px rgba(211,211,211,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(211,211,211,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(211,211,211,0.75);  */
+  box-shadow: 2px 4px 5px -2px rgba(182, 182, 182, 0.75);
+-webkit-box-shadow: 2px 4px 5px -2px rgba(182, 182, 182, 0.75);
+-moz-box-shadow: 2px 4px 5px -2px rgba(182, 182, 182, 0.75);
+    padding: 1rem;
+    margin-bottom: 1rem;
+} 
+
+
+.cartaGrafo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+    text-align: center !important;  
+    border: 0.5px solid rgb(212, 212, 212);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+   /*  box-shadow: 10px 10px 5px 0px rgba(211,211,211,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(211,211,211,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(211,211,211,0.75);  */
+  box-shadow: 2px 4px 5px -2px rgba(182, 182, 182, 0.75);
+-webkit-box-shadow: 2px 4px 5px -2px rgba(182, 182, 182, 0.75);
+-moz-box-shadow: 2px 4px 5px -2px rgba(182, 182, 182, 0.75);
+    padding: 1rem;
+    width: 40rem !important;
+    margin-bottom: 1rem;
+   
+} 
+
+.carta2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+    text-align: center !important;  
+    border: 0.5px solid rgb(212, 212, 212);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+   /*  box-shadow: 10px 10px 5px 0px rgba(211,211,211,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(211,211,211,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(211,211,211,0.75);  */
+  box-shadow: 2px 4px 5px -2px rgba(182, 182, 182, 0.75);
+-webkit-box-shadow: 2px 4px 5px -2px rgba(182, 182, 182, 0.75);
+-moz-box-shadow: 2px 4px 5px -2px rgba(182, 182, 182, 0.75);
+    padding: 1rem;
+    width: 80rem;
+}
+
+
+.scrollable-card {
+ 
+    height: 500px; /* Ajusta la altura según tus necesidades */
+    overflow: auto;
+  }
+
+.polaridad{
+    width: 90%;
+}
+
+.titulo-carta{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.subtitulo-carta{
+    font-weight: 200;
+    color:rgb(0, 0, 0)
+}
+
+.gitloading{
+    display: flex;
+    justify-content: center;
+    background-color: #1e3236;
+    border-radius: 20px;
+}
+
+.grafo-video{
+    display: flex;
+    width: 100%;
+    gap:0.5rem;
+    margin-bottom: 1rem;
+   
+}
+
+.grafo-video-modelos{
+    display: flex;
+    width: 30%;
+    gap:0.5rem;
+    margin-bottom: 1rem;
+    border: 0.5px solid rgb(212, 212, 212);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+   /*  box-shadow: 10px 10px 5px 0px rgba(211,211,211,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(211,211,211,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(211,211,211,0.75);  */
+  box-shadow: 2px 4px 5px -2px rgba(182, 182, 182, 0.75);
+-webkit-box-shadow: 2px 4px 5px -2px rgba(182, 182, 182, 0.75);
+-moz-box-shadow: 2px 4px 5px -2px rgba(182, 182, 182, 0.75);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.video-texto{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    gap:2rem;
+
+}
+
+.valor-grande .ant-statistic-content-value {
+    font-size: 30px; /* Ajusta el tamaño de fuente según tus necesidades */
+  }
+
+.video-texto2{
+    display: flex;
+    flex-direction: row;
+   
+
+}
+
+.tooltip-treemap-modelo{
+    margin:2rem
+}
+
+.video-explicativo{
+    width: 100%;
+}
+
+.texto-explicativo{
+    width: 100%;
+    height: 50%;
+    padding-top: 1rem;
+}
+
+.fechas{
+    margin-top:2rem ;
+}
+
+.fechas-grafos{
+    width: 13%;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bigramas-trigramas{
+    display: flex;
+    width: 97%;
+}
+
+.Tablas{
+    display: flex;
+    margin-top: 2rem;
+    gap:1rem;
+    overflow: auto;
+}
+
+.card-body-contenedor-grafo{
+    margin:2rem;
+    color: #ff00006c
+}
+
+.video-texto-tablas{
+    display: flex;
+    flex-direction: row;
+    gap:2rem
+}
+
+.texto-explicativo-tablas{
+    width: 50%;
+    height: 23rem;
+    padding-top: 10rem;
+}
+
+.video-explicativo-tabla {
+    width: 50%;
+}
+
+.texto-explicativo-fechas{
+    height: 23rem;
+    justify-content: start;
+}
+.flex-container{
+    display:flex
+}
+.download{
+
+    margin-left:15px;
+    background-color: #f97000;
+}
+.download:hover{
+
+    background-color: #1e3236 !important;
+}
+
+@media (max-width: 768px) {
+   
+  
+}

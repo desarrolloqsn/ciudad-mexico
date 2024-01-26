@@ -1,0 +1,118 @@
+.contendor-tweets{
+    display: flex;
+    flex-direction: column;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border: 1px solid rgba(0, 0, 0, 0.303);
+    border-radius: 10px;
+    background-color:rgba(216, 215, 215, 0.164); 
+    overflow: auto
+
+}
+
+.link-tweet{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.replyingto{
+    color: rgba(255, 0, 0, 0.525)
+}
+
+.rate{
+    width: 50%;
+}
+
+.contendor:hover{
+    background-color:rgba(178, 178, 178, 0.323); 
+}
+
+.contenedor-tituloSubtitulo{
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.foto-texto-perfil{
+    display: flex;
+    justify-content: center;
+}
+
+.fotoperfil{
+    width: 80%;
+    border-radius: 100%;
+}
+
+.publicacion{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.tags{
+    display: flex;
+    justify-content: start;
+    margin-top: 0.5rem;
+    flex-wrap: wrap;
+}
+
+
+
+.ant-table-column-has-actions .ant-table-filter-trigger {
+    display: none !important;
+  }
+
+
+.contenedor-publicacion{
+    width: 80%;
+}
+
+.contenedor-perfil{
+    width: 10%;
+}
+
+.user-twitter{
+    margin-left: 0.5rem;
+    color:rgb(103, 103, 103);
+    font-weight: 100;
+  
+}
+
+.contenedor-general{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+    
+}
+
+.border{
+    border: 1px solid rgba(136, 136, 136, 0.203);
+   
+}
+
+.nav{
+    height: 3rem;
+    background-color:#F2F2F2; 
+    margin-bottom: 1rem;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+   
+  }
+
+  @media only screen and (max-width: 767px) {
+  
+
+    .border{
+        border: 1px solid rgba(136, 136, 136, 0.203);
+        margin-left: 0rem !important;
+        margin-right: 0rem !important;
+    }
+  }

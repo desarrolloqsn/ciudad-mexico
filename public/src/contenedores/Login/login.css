@@ -1,0 +1,103 @@
+.contenedor-login{
+    display: flex;
+    
+}
+
+.contenedor-mitad-login{
+    width: 50%;
+}
+
+.imagen-login{
+    width: 100%;
+ height: 100%;
+   
+
+}
+
+.logo-login{
+    display: flex;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    width: 20%;
+}
+
+.formlogin{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 100;
+    gap: 1rem;
+    color: #808285
+}
+
+.copyrigth{
+    display: flex;
+    justify-content: center;
+    margin-top: 12rem;
+    color: #808285
+}
+
+@media (max-width: 1000px) {
+
+  /* .iniciar-sesion-login{
+    width: 100%;
+  } */
+    .imagen-login {
+      display: none !important;
+    }
+  
+    .mitad-login {
+      width: 100% !important;
+    }
+  
+    .mitad-login2 {
+      display: none;
+    }
+  
+    .slide-left {
+      transform: translateX(0%);
+      transition: transform 0.5s ease;
+    }
+  
+    .slide-right {
+      transform: translateX(0%);
+      transition: transform 0.5s ease;
+    }
+  
+    .login-form-forgot {
+      font-size: 16px;
+    }
+  
+    .login-form-forgot:hover {
+      color: #f47523;
+    }
+  
+    /* Ajustar posición de .formlogin en el modo responsive */
+    .formlogin {
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  
+
+.slide-left {
+    transform: translateX(-100%);
+    transition: transform 0.5s ease;
+  }
+  
+  .slide-right {
+    transform: translateX(100%);
+    transition: transform 0.5s ease;
+  }
+
+  .login-form-forgot{
+    font-size: 16px;
+  }
+
+  .login-form-forgot:hover{
+    color:#F47523
+  }

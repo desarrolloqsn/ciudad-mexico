@@ -1,0 +1,30 @@
+.login-form{
+    width: 50%;
+  }
+
+
+.login-form-button{
+    width: 100%;
+  }
+
+.boton-login{
+  background-color: #808285;
+}
+.boton-login:hover{
+  background-color: #F47523 !important;
+}
+
+a{
+  text-decoration: none !important;
+  color:#808285;
+}
+
+.registro-login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:1rem;
+  margin-top: 1rem;
+}
+
+
