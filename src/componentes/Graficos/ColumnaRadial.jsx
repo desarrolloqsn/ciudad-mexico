@@ -38,6 +38,7 @@ export default function ColumnaRadial(){
   // console.log(count);
 
   
+  
   const categoriasModelos = [
     {modelo: "Atributos", categorias: ["Autoridad","Capacidad","Cercanía","Coherencia","Deshonestidad","Dinamismo","Falta de Autoridad","Falta de Capacidad","Falta de cercanía","Falta de Responsabilidad","Falta de sensibilidad","Falta de Trayectoria","Honestidad","Incoherencia","Interacción","Responsabilidad","Sensibilidad","Trayectoria" ]},
     {modelo: "Clima%20social", categorias:["Autoritarismo","Cambio","Calma","Continuidad","Democracia","Desorden","Despolitizacion","División","Estabilidad","Individualismo","Inestabilidad", "Injusticia","Irritación","Justicia","Orden", "Unidad","Pertenencia Social","Politizacion"]},
@@ -59,8 +60,6 @@ export default function ColumnaRadial(){
     {modelo:"Sentimientos", categorias: ["Agotamiento","Agrado","Amor","Alegría","Altivez","Apatía","Aversión","Calma","Certeza","Compasíon","Desagrado","Deseo","Dolor","Duda","Entusiasmo","Frustración","Humillacion","Odio","Placer","Satisfacción","Tensíon","Valor","Vigor"]},
     // { modelo: "Voto Emocional y Racional", categorias: ["Voto Emocional", "Voto Racional"] }
     ];
-
-
 const categorias = categoriasModelos.find(item => item.modelo === subUrl)?.categorias || [];
 
 

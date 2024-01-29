@@ -29,6 +29,8 @@ export default function BarrasApiladasModelo() {
       const formattedData = organizeTweetsByDayAndCategories(datos , attribute);
       setData(formattedData);
     }, [datos]);
+
+
     const categoriasModelos = [
       {modelo: "Atributos", categorias: ["Autoridad","Capacidad","Cercanía","Coherencia","Deshonestidad","Dinamismo","Falta de Autoridad","Falta de Capacidad","Falta de cercanía","Falta de Responsabilidad","Falta de sensibilidad","Falta de Trayectoria","Honestidad","Incoherencia","Interacción","Responsabilidad","Sensibilidad","Trayectoria" ]},
       {modelo: "Clima%20social", categorias:["Autoritarismo","Cambio","Calma","Continuidad","Democracia","Desorden","Despolitizacion","División","Estabilidad","Individualismo","Inestabilidad", "Injusticia","Irritación","Justicia","Orden", "Unidad","Pertenencia Social","Politizacion"]},
@@ -193,6 +195,7 @@ export default function BarrasApiladasModelo() {
 
 
   return <div>
+
   <div className='titulo-carta'>{tweetsFiltrados.length > 0 ? "Categorias diario" : "Modelos diario"}</div>
 
    <div className='subtitulo-carta'>{tweetsFiltrados.length > 0 ? "Eventos categorizados por categorias en %" : "Eventos categorizados por modelos"}

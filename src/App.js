@@ -19,15 +19,6 @@ import Error404 from './contenedores/404/index.jsx';
 import { loginSuccess } from './redux/actions';
 
 
-// function PrivateRoute({ element, ...rest }) {
-//   const user = useSelector((state) => state.auth.user);
-
-//   return user ? (
-//     <Route {...rest} element={element} />
-//   ) : (
-//     <Navigate to="/" replace />
-//   );
-// }
 
 
 
@@ -237,7 +228,7 @@ function App() {
     const storedPassword = localStorage.getItem('password');
   
    // Si se encuentran almacenados, realizar el inicio de sesión automáticamente
-   if (storedUsername === "analistas" ||storedPassword === "qsnlanus" && storedPassword === "qsn123" || storedPassword === "qsnlanus2023") {
+   if (storedUsername === "analistas" ||storedPassword === "qsnvzla" && storedPassword === "qsn123" || storedPassword === "qsnvzla2023") {
     const user = {
       username: storedUsername,
       roles: ['user'],
@@ -261,7 +252,7 @@ function App() {
         <PrivateRoute path="/dashboard/*" element={<DashboardContainer />} />
     </Routes> */}
     
-  <Routes> 
+    <Routes> 
 
         <Route path="/" element={user ? <Navigate to="/dashboard" replace /> : <Login />} />
         {user && (
@@ -295,6 +286,7 @@ function App() {
 }
 
 function DashboardContainer() {
+ 
   return (
     <>
       <Nav />

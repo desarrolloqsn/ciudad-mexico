@@ -121,10 +121,10 @@ export default function Graficos() {
      
      <div className='columna'>
      <div className='grafico-treemap'>
-     
+       <TreemapModeloFiltro/>
      </div>
      <div className='grafico-barras'>
-   
+          <BarrasApiladasModeloFiltro />
         </div>
      </div>
     

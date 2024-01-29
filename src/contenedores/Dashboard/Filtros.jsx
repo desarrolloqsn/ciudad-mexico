@@ -109,7 +109,6 @@ export default function Filtros() {
       // { modelo: "Voto Emocional y Racional", categorias: ["Voto Emocional", "Voto Racional"] }
       ];
 
-
     // Función recursiva para construir el árbol
 function buildTree(data) {
   const tree = [];
@@ -371,17 +370,6 @@ const treeData = buildTree(categoriasModelosSelector);
         return numero < 10 ? `0${numero}` : numero;
       }
       
-      
-   
-    
-    
-
-
-      
-
-    
-
-
       const handleHoraChange = (times) => {
        
         if(times){
@@ -428,6 +416,7 @@ const modeloEncontrado = categoriasModelos.find(item => item.modelo === subUrl);
 // Obtener la lista de categorías del modelo
 const categorias = modeloEncontrado ? modeloEncontrado.categorias : [];
 
+// console.log ('categorias', categorias)
 
 
 const selectProps = {
@@ -541,7 +530,7 @@ const disabledDate = current => {
   }
   return (
     <div>
-    <div className='nombreDashboard'> Mex - Ciudad de México- TW {modeloSinEspacios ? `- ${modeloSinEspacios}` : null}</div>
+    <div className='nombreDashboard'>MEX- Ciudada de México {modeloSinEspacios ? `- ${modeloSinEspacios}` : null}</div>
     <div className='contenedor-filtros'>
      <div className='boton-informe'>
      <Tooltip placement="top" title='Generar informe' >
