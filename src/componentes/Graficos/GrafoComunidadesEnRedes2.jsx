@@ -231,7 +231,7 @@ const opciones = fechas.slice(0, -1).map((fecha, index) => {
     
     <div className='carta video-texto2 scrollable-card'> 
     <Tooltip title="Click para ver el grafo">
-    <a href={`https://qsngrafos.vercel.app/comunidades/11307262/grafo_comunidades_menos_gob-${filtroFecha}.html`} target="_blank">
+    <a href={`https://qsngrafos.vercel.app/comunidades/11062016/grafo_comunidades_menos_gob-${filtroFecha}.html`} target="_blank">
     <div className='video-explicativo cartaGrafo'>
       <img src={imagen} className='imagen-grafo' />
     </div>
