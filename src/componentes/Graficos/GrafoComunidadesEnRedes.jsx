@@ -267,13 +267,13 @@ const opciones = fechas
           </Select.Option>
         </Select>
       )}
-         <Flex gap="small" wrap="wrap">
+         {/* <Flex gap="small" wrap="wrap">
          <Tooltip title="Click para descargar el grafo">
          <Button type="primary" shape="circle" icon={<DownloadOutlined />} className='download' onClick={descargarImagen} />
            
      
          </Tooltip>
-         </Flex>
+         </Flex> */}
          </div>              
     <div>
     <div className='carta video-texto2 scrollable-card'> 
