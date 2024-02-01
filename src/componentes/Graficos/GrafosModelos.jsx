@@ -50,7 +50,7 @@ export default function GrafosModelos(){
     {/* <div className='grafo-video-modelos'>
     <Tooltip title="Click para ver el grafo">
         <div className='titulo-modelo'>Sentimientos</div>
-    <a href={`https://qsngrafos.vercel.app/modelos/movilizacion/grafo_modelo-Sentimientos-${filtroFecha}.html`} target="_blank">
+    <a href={`https://qsngrafos.vercel.app/modelos/11062016/grafo_modelo-Sentimientos-${filtroFecha}.html`} target="_blank">
     <div className=' cartaGrafo-modelos'>
       <img src={sentimientos} className='imagen-grafo-modelos' />
     </div>
@@ -61,7 +61,7 @@ export default function GrafosModelos(){
     <div className='grafo-video-modelos'>
     <Tooltip title="Click para ver el grafo">
     <div className='titulo-modelo'>Atributos</div>
-    <a href={`https://qsngrafos.vercel.app/modelos/movilizacion/grafo_modelo-Atributos-${filtroFecha}.html`} target="_blank">
+    <a href={`https://qsngrafos.vercel.app/modelos/11062016/grafo_modelo-Atributos-${filtroFecha}.html`} target="_blank">
     <div className=' cartaGrafo-modelos'>
       <img src={atributospersonalidad} className='imagen-grafo-modelos' />
     </div>
@@ -71,7 +71,7 @@ export default function GrafosModelos(){
     <div className='grafo-video-modelos'>
     <Tooltip title="Click para ver el grafo">
     <div className='titulo-modelo'>Clima Social</div>
-    <a href={`https://qsngrafos.vercel.app/modelos/movilizacion/grafo_modelo-Clima%20social-${filtroFecha}.html`} target="_blank">
+    <a href={`https://qsngrafos.vercel.app/modelos/11062016/grafo_modelo-Clima%20social-${filtroFecha}.html`} target="_blank">
     <div className=' cartaGrafo-modelos'>
       <img src={atributospoliticos} className='imagen-grafo-modelos' />
     </div>
@@ -81,7 +81,7 @@ export default function GrafosModelos(){
     <div className='grafo-video-modelos'>
     <Tooltip title="Click para ver el grafo">
     <div className='titulo-modelo'>Continuidad y cambio</div>
-    <a href={`https://qsngrafos.vercel.app/modelos/movilizacion/grafo_modelo-Continuidad%20y%20cambio-${filtroFecha}.html`} target="_blank">
+    <a href={`https://qsngrafos.vercel.app/modelos/11062016/grafo_modelo-Continuidad%20y%20cambio-${filtroFecha}.html`} target="_blank">
     <div className=' cartaGrafo-modelos'>
       <img src={contcambio} className='imagen-grafo-modelos' />
     </div>
@@ -92,7 +92,7 @@ export default function GrafosModelos(){
     <div className='grafo-video-modelos'>
     <Tooltip title="Click para ver el grafo">
     <div className='titulo-modelo'>Emociones Básicas (Plutchik)</div>
-    <a href={`https://qsngrafos.vercel.app/modelos/movilizacion/grafo_modelo-Emociones%20Básicas%20(Plutchik)-${filtroFecha}.html`} target="_blank">
+    <a href={`https://qsngrafos.vercel.app/modelos/11062016/grafo_modelo-Emociones%20Básicas%20(Plutchik)-${filtroFecha}.html`} target="_blank">
     <div className=' cartaGrafo-modelos'>
       <img src={emocionesbasicas} className='imagen-grafo-modelos' />
     </div>
@@ -102,7 +102,7 @@ export default function GrafosModelos(){
     <div className='grafo-video-modelos'>
     <Tooltip title="Click para ver el grafo">
     <div className='titulo-modelo'>Preocupaciones</div>
-    <a href={`https://qsngrafos.vercel.app/modelos/movilizacion/grafo_modelo-Preocupaciones-${filtroFecha}.html`} target="_blank">
+    <a href={`https://qsngrafos.vercel.app/modelos/11062016/grafo_modelo-Preocupaciones-${filtroFecha}.html`} target="_blank">
     <div className=' cartaGrafo-modelos'>
       <img src={preocupaciones} className='imagen-grafo-modelos' />
     </div>
@@ -112,7 +112,7 @@ export default function GrafosModelos(){
     <div className='grafo-video-modelos'>
     <Tooltip title="Click para ver el grafo">
     <div className='titulo-modelo'>Red motivacional del voto</div>
-    <a href={`https://qsngrafos.vercel.app/modelos/movilizacion/grafo_modelo-Red%20motivacional%20del%20voto-${filtroFecha}.html`} target="_blank">
+    <a href={`https://qsngrafos.vercel.app/modelos/11062016/grafo_modelo-Red%20motivacional%20del%20voto-${filtroFecha}.html`} target="_blank">
     <div className=' cartaGrafo-modelos'>
       <img src={redmotivacional} className='imagen-grafo-modelos' />
     </div>
@@ -122,7 +122,7 @@ export default function GrafosModelos(){
     {/* <div className='grafo-video-modelos'>
     <Tooltip title="Click para ver el grafo">
     <div className='titulo-modelo'>Voto Emocional y Racional</div>
-    <a href={`https://qsngrafos.vercel.app/modelos/movilizacion/grafo_modelo-Voto%20Emocional%20y%20Racional-${filtroFecha}.html`} target="_blank">
+    <a href={`https://qsngrafos.vercel.app/modelos/11062016/grafo_modelo-Voto%20Emocional%20y%20Racional-${filtroFecha}.html`} target="_blank">
     <div className=' cartaGrafo-modelos'>
       <img src={votoemrac} className='imagen-grafo-modelos' />
     </div>
@@ -133,7 +133,7 @@ export default function GrafosModelos(){
     {/* <div className='grafo-video-modelos'>
     <Tooltip title="Click para ver el grafo">
     <div className='titulo-modelo'>Preocupaciones VEN</div>
-    <a href={`https://qsngrafos.vercel.app/modelos/movilizacion/grafo_modelo-Preocupaciones%20-%20Ven-${filtroFecha}.html`} target="_blank">
+    <a href={`https://qsngrafos.vercel.app/modelos/11062016/grafo_modelo-Preocupaciones%20-%20Ven-${filtroFecha}.html`} target="_blank">
     <div className=' cartaGrafo-modelos'>
       <img src={preocupacionesVen} className='imagen-grafo-modelos'/>
     </div>
